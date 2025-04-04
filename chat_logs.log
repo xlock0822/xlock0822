@@ -1,0 +1,25 @@
+2025-03-08 22:18:50,011 - __main__ - ERROR - Error initializing bot: [Errno 2] No such file or directory: 'company_config.json'
+2025-03-08 22:18:50,068 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.99:5000
+2025-03-08 22:18:50,069 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 22:18:50,069 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 22:18:51,000 - __main__ - ERROR - Error initializing bot: [Errno 2] No such file or directory: 'company_config.json'
+2025-03-08 22:18:51,046 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 22:18:51,063 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 22:24:28,671 - werkzeug - INFO -  * Detected change in '/Users/xavierlockett/company_chatbot/src/website_integrator.py', reloading
+2025-03-08 22:24:28,873 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 22:24:29,779 - __main__ - ERROR - Error initializing bot: [Errno 2] No such file or directory: 'company_config.json'
+2025-03-08 22:24:29,820 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 22:24:29,836 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 22:24:38,243 - werkzeug - INFO -  * Detected change in '/Users/xavierlockett/company_chatbot/src/website_integrator.py', reloading
+2025-03-08 22:24:38,478 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 22:24:39,365 - __main__ - ERROR - Error initializing bot: [Errno 2] No such file or directory: 'company_config.json'
+2025-03-08 22:24:39,404 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 22:24:39,417 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 22:25:49,029 - werkzeug - INFO -  * Detected change in '/Users/xavierlockett/company_chatbot/src/website_integrator.py', reloading
+2025-03-08 22:25:49,267 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 22:25:50,686 - __main__ - ERROR - Error initializing bot: [Errno 2] No such file or directory: 'company_config.json'
+2025-03-08 22:25:50,728 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 22:25:50,743 - werkzeug - INFO -  * Debugger PIN: 968-012-349

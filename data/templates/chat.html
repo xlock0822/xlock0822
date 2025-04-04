@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}Chat - AI Customer Service{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <div id="chat-messages" class="h-96 overflow-y-auto mb-4">
+            <!-- Messages will appear here -->
+        </div>
+        
+        <div class="flex gap-2">
+            <input type="text" 
+                   id="message-input" 
+                   class="flex-1 p-2 border rounded"
+                   placeholder="Type your message...">
+            <button onclick="sendMessage()" 
+                    class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                Send
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const messagesDiv = document.getElementById('chat-messages');
+const messageInput = document.getElementById('message-input');
+
+function addMessage(text, isUser = false) {
+    const div = document.createElement('div');
+    div.className = `p-3 rounded-lg mb-2 ${isUser ? 'bg-blue-100 ml-auto' : 'bg-gray-100'} max-w-[80%]`;
+    div.textContent = text;
+    messagesDiv.appendChild(div);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+
+async function sendMessage() {
+    const message = messageInput.value.trim();
+    if (!message) return;
+
+    // Add user message
+    addMessage(message, true);
+    messageInput.value = '';
+
+    try {
+        // Send to server
+        const response = await fetch('/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message })
+        });
+
+        const data = await response.json();
+        
+        // Add bot response
+        addMessage(data.response);
+
+    } catch (error) {
+        console.error('Error:', error);
+        addMessage('Sorry, there was an error processing your message.');
+    }
+}
+
+// Handle Enter key
+messageInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        sendMessage();
+    }
+});
+
+// Initial greeting
+addMessage('Hello! How can I help you today?');
+</script>
+{% endblock %}

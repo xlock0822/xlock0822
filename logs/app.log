@@ -1,0 +1,85 @@
+2025-03-08 19:32:17,554 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.99:5000
+2025-03-08 19:32:17,554 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 19:32:17,556 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 19:32:17,889 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 19:32:17,911 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 19:32:54,573 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:32:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-08 19:32:54,608 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:32:54] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-08 19:32:54,609 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:32:54] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-08 19:32:54,621 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:32:54] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=MS6NKtx8GHQH0DJBK8JC HTTP/1.1" 200 -
+2025-03-08 19:32:54,644 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:32:54] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-08 19:38:26,914 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.99:5000
+2025-03-08 19:38:26,914 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 19:38:26,915 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 19:38:27,214 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 19:38:27,227 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 19:38:50,033 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:38:50] "GET / HTTP/1.1" 200 -
+2025-03-08 19:38:50,049 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:38:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-08 19:38:50,049 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:38:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=MS6NKtx8GHQH0DJBK8JC HTTP/1.1[0m" 304 -
+2025-03-08 19:38:50,050 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:38:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-08 19:38:50,056 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:38:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-08 19:38:50,351 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:38:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 19:39:17,917 - __main__ - INFO - Received message: I need help with order
+2025-03-08 19:39:17,918 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:39:17] "POST /chat HTTP/1.1" 200 -
+2025-03-08 19:39:38,303 - __main__ - INFO - Received message: Please assist me with billing
+2025-03-08 19:39:38,304 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:39:38] "POST /chat HTTP/1.1" 200 -
+2025-03-08 19:40:19,625 - __main__ - INFO - Received message: Please show me your products
+2025-03-08 19:40:19,626 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:40:19] "POST /chat HTTP/1.1" 200 -
+2025-03-08 19:47:52,354 - werkzeug - INFO -  * Detected change in '/Users/xavierlockett/company_chatbot/app.py', reloading
+2025-03-08 19:47:52,444 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 19:47:52,854 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 19:47:52,870 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 19:48:36,227 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.99:5000
+2025-03-08 19:48:36,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 19:48:36,229 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 19:48:36,512 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 19:48:36,526 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 19:48:41,454 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:48:41] "GET / HTTP/1.1" 200 -
+2025-03-08 19:48:51,509 - __main__ - INFO - Received message: I need billing help
+2025-03-08 19:48:51,510 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:48:51] "POST /chat HTTP/1.1" 200 -
+2025-03-08 19:49:14,474 - __main__ - INFO - Received message: What products do you have
+2025-03-08 19:49:14,475 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:49:14] "POST /chat HTTP/1.1" 200 -
+2025-03-08 19:49:42,977 - __main__ - INFO - Received message: can you help me with tracking
+2025-03-08 19:49:42,979 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 19:49:42] "POST /chat HTTP/1.1" 200 -
+2025-03-08 20:19:47,126 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.99:5000
+2025-03-08 20:19:47,126 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 20:19:47,127 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 20:19:47,369 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 20:19:47,384 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 20:19:50,542 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 20:19:50] "GET / HTTP/1.1" 200 -
+2025-03-08 20:20:02,580 - __main__ - INFO - Received message: I need help with pricing
+2025-03-08 20:20:02,580 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 20:20:02] "POST /chat HTTP/1.1" 200 -
+2025-03-08 20:25:28,929 - werkzeug - INFO -  * Detected change in '/Users/xavierlockett/company_chatbot/app.py', reloading
+2025-03-08 20:25:28,988 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 21:22:29,547 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 21:22:29,548 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 21:22:29,647 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.99:5000
+2025-03-08 21:22:29,647 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 21:22:29,647 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 21:22:33,056 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 21:22:33,056 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 21:36:29,065 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 21:36:29,066 - werkzeug - INFO -  * Debugger PIN: 968-012-349
+2025-03-08 21:36:29,206 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.99:5000
+2025-03-08 21:36:29,207 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 21:36:29,207 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 21:36:32,172 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 21:36:32,172 - werkzeug - INFO -  * Debugger PIN: 968-012-349
